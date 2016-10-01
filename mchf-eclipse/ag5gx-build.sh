@@ -24,4 +24,6 @@
 ###
 ###  Compile
 ###
-make OPT_GCC_ARM=/usr/local/gcc-arm-none-eabi-5_4-2016q2 all
+make OPT_GCC_ARM=/usr/local/gcc-arm-none-eabi-5_4-2016q2 \
+     EXTRACFLAGS=-DMCHF_BOARD_0P5 \
+     clean all 
